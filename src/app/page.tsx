@@ -48,7 +48,7 @@ function HeroSection() {
       {/* Main Content */}
       <div className="container mx-auto px-8 relative z-10">
         <div className="max-w-6xl mx-auto text-center space-y-12">
-          <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-black leading-tight">
+          <h1 className="text-6xl md:text-7xl lg:text-7xl xl:text-7xl font-bold text-black leading-tight">
             Uncover the "Fan Truths" That Set Your Brand Apart
           </h1>
           <p className="text-xl md:text-2xl lg:text-3xl text-gray-800 max-w-4xl mx-auto leading-relaxed">
