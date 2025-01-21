@@ -28,17 +28,17 @@ function HeroSection() {
     <section className="relative bg-[#C4B5FD] min-h-[90vh] flex items-center justify-center">
       {/* Decorative Elements - Desktop Only */}
       <div className="absolute inset-0 hidden md:block">
-        <div className="absolute top-1/4 left-1/4">
+        <div className="absolute top-[15%] left-[15%]">
           <div className="w-24 h-24 rounded-full bg-white border-4 border-black flex items-center justify-center">
             <Heart className="w-12 h-12 text-pink-400" />
           </div>
         </div>
-        <div className="absolute top-1/3 right-1/4">
+        <div className="absolute top-[20%] right-[15%]">
           <div className="w-32 h-32 rounded-full bg-white border-4 border-black flex items-center justify-center">
             <Star className="w-16 h-16 text-purple-400" />
           </div>
         </div>
-        <div className="absolute bottom-1/3 left-1/3">
+        <div className="absolute bottom-[20%] left-[20%]">
           <div className="w-28 h-28 rounded-full bg-white border-4 border-black flex items-center justify-center">
             <Eye className="w-14 h-14 text-blue-300" />
           </div>
@@ -46,17 +46,17 @@ function HeroSection() {
       </div>
 
       {/* Main Content */}
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl mx-auto text-center space-y-8">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-black leading-tight">
+      <div className="container mx-auto px-8 relative z-10">
+        <div className="max-w-6xl mx-auto text-center space-y-12">
+          <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-black leading-tight">
             Uncover the "Fan Truths" That Set Your Brand Apart
           </h1>
-          <p className="text-xl md:text-2xl text-gray-800 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl lg:text-3xl text-gray-800 max-w-4xl mx-auto leading-relaxed">
             Digital Fans has developed a cutting-edge methodology that combines field research, social media analysis, and AI to help you uncover what your customers truly love about your brand—the unique elements that only you can offer.
           </p>
 
           {/* Mobile Icons Row */}
-          <div className="flex justify-center space-x-4 md:hidden">
+          <div className="flex justify-center space-x-6 md:hidden">
             <div className="w-20 h-20 rounded-full bg-white border-4 border-black flex items-center justify-center">
               <Heart className="w-10 h-10 text-pink-400" />
             </div>
