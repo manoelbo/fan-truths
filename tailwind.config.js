@@ -11,6 +11,17 @@ module.exports = {
         sans: ['var(--font-inter)'],
         mono: ['var(--font-jetbrains-mono)'],
       },
+      container: {
+        center: true,
+        padding: '1rem',
+        screens: {
+          sm: '640px',
+          md: '768px',
+          lg: '1024px',
+          xl: '1280px',
+          '2xl': '1536px',
+        },
+      },
     },
   },
   plugins: [],

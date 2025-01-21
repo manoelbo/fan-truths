@@ -13,27 +13,24 @@ import { ProcessStepProps, JourneyCardProps, CTACardProps } from "@/types"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm">
-        <HeroSection />
-        <WhatAreFanTruths />
-        <OurProcess />
-        <WhatYoullGet />
-        <CTASection />
-      </div>
+    <main className="min-h-screen">
+      <HeroSection />
+      <WhatAreFanTruths />
+      <OurProcess />
+      <WhatYoullGet />
+      <CTASection />
     </main>
   )
 }
 
 function HeroSection() {
   return (
-    <section className="relative bg-[#C4B5FD] min-h-[90vh] flex items-center">
+    <section className="relative bg-[#C4B5FD] min-h-[90vh]">
       {/* Decorative Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10">
           <div className="w-24 h-24 rounded-full bg-white border-4 border-black flex items-center justify-center">
             <Heart className="w-12 h-12 text-pink-400" />
-
           </div>
         </div>
         <div className="absolute top-40 right-20">
@@ -57,7 +54,6 @@ function HeroSection() {
           <p className="text-xl md:text-2xl text-gray-800 max-w-3xl mx-auto leading-relaxed">
             Digital Fans has developed a cutting-edge methodology that combines field research, social media analysis, and AI to help you uncover what your customers truly love about your brand—the unique elements that only you can offer.
           </p>
-
         </div>
       </div>
     </section>
@@ -218,7 +214,6 @@ function WhatYoullGet() {
         </div>
 
         {/* Call to Action */}
-
       </div>
     </section>
   )
