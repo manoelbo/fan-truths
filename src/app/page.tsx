@@ -52,7 +52,7 @@ function HeroSection() {
             Uncover the "Fan Truths" That Set Your Brand Apart
           </h1>
           <p className="text-xl md:text-2xl lg:text-3xl text-gray-800 max-w-4xl mx-auto leading-relaxed">
-            Digital Fans has developed a cutting-edge methodology that combines field research, social media analysis, and AI to help you uncover what your customers truly love about your brand—the unique elements that only you can offer.
+            Pini Cagão has developed a cutting-edge methodology that combines field research, social media analysis, and AI to help you uncover what your customers truly love about your brand—the unique elements that only you can offer.
           </p>
 
           {/* Mobile Icons Row */}
