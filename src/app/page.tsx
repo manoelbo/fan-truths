@@ -169,7 +169,7 @@ function OurProcess() {
   )
 }
 
-function ProcessStep({ icon, title, description, color }) {
+function ProcessStep({ icon, title, description, color }: ProcessStepProps) {
   return (
     <div className="flex items-start space-x-6">
       <div className={`${color} p-4 rounded-full border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]`}>
@@ -223,7 +223,7 @@ function WhatYoullGet() {
   )
 }
 
-function JourneyCard({ icon, title, description, color }) {
+function JourneyCard({ icon, title, description, color }: JourneyCardProps) {
   return (
     <div
       className={`${color} border-4 border-black rounded-lg p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]
@@ -258,7 +258,7 @@ function CTASection() {
   )
 }
 
-function CTACard({ title, description, color }) {
+function CTACard({ title, description, color }: CTACardProps) {
   return (
     <div
       className={`${color} border-4 border-black rounded-lg p-8 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]
