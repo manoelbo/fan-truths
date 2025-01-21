@@ -9,6 +9,7 @@ import {
   Book,
   Users2,
 } from "lucide-react"
+import { ProcessStepProps, JourneyCardProps, CTACardProps } from "@/types"
 
 export default function Home() {
   return (

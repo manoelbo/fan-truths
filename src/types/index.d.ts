@@ -1,20 +1,20 @@
 import { ReactNode } from 'react'
 
-interface ProcessStepProps {
+export interface ProcessStepProps {
   icon: ReactNode
   title: string
   description: string
   color: string
 }
 
-interface JourneyCardProps {
+export interface JourneyCardProps {
   icon: ReactNode
   title: string
   description: string
   color: string
 }
 
-interface CTACardProps {
+export interface CTACardProps {
   title: string
   description: string
   color: string
