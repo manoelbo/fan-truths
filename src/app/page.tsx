@@ -1,4 +1,3 @@
-
 import {
   Heart,
   Star,
@@ -11,14 +10,16 @@ import {
   Users2,
 } from "lucide-react"
 
-export default function LandingPage() {
+export default function Home() {
   return (
-    <main>
-      <HeroSection />
-      <WhatAreFanTruths />
-      <OurProcess />
-      <WhatYoullGet />
-      <CTASection />
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm">
+        <HeroSection />
+        <WhatAreFanTruths />
+        <OurProcess />
+        <WhatYoullGet />
+        <CTASection />
+      </div>
     </main>
   )
 }

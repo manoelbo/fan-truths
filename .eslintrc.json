@@ -1,9 +1,7 @@
 {
-  "extends": ["next", "next/core-web-plugins"],
-  "plugins": ["react"],
+  "extends": ["next/core-web-vitals", "prettier"],
   "rules": {
-    "@typescript-eslint/no-unused-vars": "warn",
-    "react/no-unescaped-entities": "off",
-    "@next/next/no-page-custom-font": "off"
+    "@next/next/no-img-element": "off",
+    "react/no-unescaped-entities": "off"
   }
 } 
