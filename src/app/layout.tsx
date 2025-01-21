@@ -1,8 +1,16 @@
 import { Inter, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
+import type { ReactNode } from 'react'
 
-const inter = Inter({ subsets: ['latin'] })
-const jetbrainsMono = JetBrains_Mono({ subsets: ['latin'] })
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+})
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ['latin'],
+  variable: '--font-jetbrains-mono',
+})
 
 export const metadata = {
   title: 'Fan Truths',
@@ -12,12 +20,12 @@ export const metadata = {
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: ReactNode
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>
-        <main className={jetbrainsMono.variable}>{children}</main>
+      <body className={`${inter.variable} antialiased`}>
+        <main className={jetbrainsMono.className}>{children}</main>
       </body>
     </html>
   )
